@@ -1,0 +1,133 @@
+body{
+    background-color: #aeb0b2;
+}
+/*@media screen and (min-width: 1000px) {*/
+.dropdown-menu {
+    background-color: #008ddc;
+}
+
+.dropdown-menu a {
+    color: #ffffff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    /*margin-top: 0; // remove the gap so it doesn't close*/
+}
+
+.dropdown-menu a:hover {
+    background-color: #0273c2;
+    color: white;
+}
+
+.xx li{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.yaowen-time{
+    background-color: #018ede;
+    justify-content: center;
+    height: 35%;
+}
+
+.yaowen-jiantu ul{
+    margin: 0;
+}
+
+.yaowen-time {
+    height: 60px;
+    width: 60px ;
+    margin: 0 5px;
+}
+
+.yaowen-tittle a{
+    text-decoration: none;
+    color: #1b1e21;
+
+}
+
+.yaowen-newbody a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 0.95em;
+
+}
+
+.yaowen-time span{
+    font-size: 1.5rem;
+}
+
+.yaowen-jiantu-x time{
+    background:url(./image/time.png) no-repeat left;
+}
+
+.news-body1 ul li a{
+    color: #1b1e21;
+    text-decoration: none;
+    font-size: 0.8em;
+    /*border-bottom: 1px solid #cecece;*/
+}
+
+@media screen and (min-width: 970px) {
+    .news-body1 ul li a{
+        border-bottom: 1px solid #cecece;
+    }
+}
+
+.news-body1 ul li a:hover{
+    color: #008bfe;
+}
+
+.news-body3 ul li {
+    margin: 0 0 auto 22px;
+    list-style-image:url(./image/80勾选-选中-方框.png);
+}
+.news-body3 ul li a {
+    color: #1b1e21;
+    font-size: 0.9em;
+
+}
+
+.news-body3 ul li time {
+    float: right;
+    font-size: 0.9em;
+    color: #1b1e21;
+}
+
+.news-body2 strong{
+    font-size: 0.9em;
+}
+
+.news-body2 span a{
+    color: #757575;
+    font-size: 0.7em;
+}
+
+.news-body2 span time{
+    background: url(./image/time.png) no-repeat 0 5px;
+    color: #757575;
+    font-size: 0.98em;
+}
+
+
+.news-body4 ul li{
+    background:url(./image/tzgg_img_看图王.jpg) no-repeat 42px 5px;
+    margin-bottom: 3%;
+}
+
+
+.news-body4 ul li a{
+    color: #1b1e21;
+    font-size: 0.9em;
+    text-decoration: none;
+    border-bottom: 1px solid #cecece;
+}
+
+.news-body4 ul li a:hover{
+    color: #008bfe;
+}
+
+.container{
+    max-width: 1260px;
+}
